@@ -266,7 +266,7 @@ export function Admindashboard() {
 }
 
 
-function Package2Icon(props) {
+function Package2Icon(props:any) {
   return (
     <svg
       {...props}
@@ -288,7 +288,7 @@ function Package2Icon(props) {
 }
 
 
-function BellIcon(props) {
+function BellIcon(props:any) {
   return (
     <svg
       {...props}
@@ -309,7 +309,7 @@ function BellIcon(props) {
 }
 
 
-function HomeIcon(props) {
+function HomeIcon(props:any) {
   return (
     <svg
       {...props}
@@ -330,7 +330,7 @@ function HomeIcon(props) {
 }
 
 
-function CalendarCheckIcon(props) {
+function CalendarCheckIcon(props:any) {
   return (
     <svg
       {...props}
@@ -354,7 +354,7 @@ function CalendarCheckIcon(props) {
 }
 
 
-function UsersIcon(props) {
+function UsersIcon(props:any) {
   return (
     <svg
       {...props}
@@ -377,7 +377,7 @@ function UsersIcon(props) {
 }
 
 
-function Users2Icon(props) {
+function Users2Icon(props:any) {
   return (
     <svg
       {...props}
@@ -399,7 +399,7 @@ function Users2Icon(props) {
 }
 
 
-function ArchiveIcon(props) {
+function ArchiveIcon(props:any) {
   return (
     <svg
       {...props}
@@ -421,7 +421,7 @@ function ArchiveIcon(props) {
 }
 
 
-function FileIcon(props) {
+function FileIcon(props:any) {
   return (
     <svg
       {...props}
@@ -442,7 +442,7 @@ function FileIcon(props) {
 }
 
 
-function SearchIcon(props) {
+function SearchIcon(props:any) {
   return (
     <svg
       {...props}
@@ -463,7 +463,7 @@ function SearchIcon(props) {
 }
 
 
-function CarIcon(props) {
+function CarIcon(props:any) {
   return (
     <svg
       {...props}
@@ -486,7 +486,7 @@ function CarIcon(props) {
 }
 
 
-function DollarSignIcon(props) {
+function DollarSignIcon(props:any) {
   return (
     <svg
       {...props}
@@ -507,7 +507,7 @@ function DollarSignIcon(props) {
 }
 
 
-function ClockIcon(props) {
+function ClockIcon(props:any) {
   return (
     <svg
       {...props}
@@ -528,7 +528,7 @@ function ClockIcon(props) {
 }
 
 
-function LineChart(props) {
+function LineChart(props:any) {
   return (
     <div {...props}>
       <ResponsiveLine
@@ -602,7 +602,7 @@ function LineChart(props) {
 }
 
 
-function BarChart(props) {
+function BarChart(props:any) {
   return (
     <div {...props}>
       <ResponsiveBar
@@ -656,7 +656,7 @@ function BarChart(props) {
 }
 
 
-function PieChart(props) {
+function PieChart(props:any) {
   return (
     <div {...props}>
       <ResponsivePie

@@ -182,7 +182,7 @@ export function Employeedashboard() {
                 <div className="grid gap-4">
                   <div>
                     <Label htmlFor="service-name">Service Name</Label>
-                    <Select defaultValue="Car Wash" id="service-name">
+                    <Select defaultValue="Car Wash">
                       <SelectTrigger className="w-[180px]">
                         <SelectValue placeholder="Select a service">Car Wash</SelectValue>
                       </SelectTrigger>
@@ -218,7 +218,7 @@ export function Employeedashboard() {
 }
 
 
-function Package2Icon(props) {
+function Package2Icon(props:any) {
   return (
     <svg
       {...props}
@@ -240,7 +240,7 @@ function Package2Icon(props) {
 }
 
 
-function BellIcon(props) {
+function BellIcon(props:any) {
   return (
     <svg
       {...props}
@@ -261,7 +261,7 @@ function BellIcon(props) {
 }
 
 
-function HomeIcon(props) {
+function HomeIcon(props:any) {
   return (
     <svg
       {...props}
@@ -282,7 +282,7 @@ function HomeIcon(props) {
 }
 
 
-function CalendarCheckIcon(props) {
+function CalendarCheckIcon(props:any) {
   return (
     <svg
       {...props}
@@ -306,7 +306,7 @@ function CalendarCheckIcon(props) {
 }
 
 
-function UsersIcon(props) {
+function UsersIcon(props:any) {
   return (
     <svg
       {...props}
@@ -329,7 +329,7 @@ function UsersIcon(props) {
 }
 
 
-function Users2Icon(props) {
+function Users2Icon(props:any) {
   return (
     <svg
       {...props}
@@ -351,7 +351,7 @@ function Users2Icon(props) {
 }
 
 
-function ArchiveIcon(props) {
+function ArchiveIcon(props:any) {
   return (
     <svg
       {...props}
@@ -373,7 +373,7 @@ function ArchiveIcon(props) {
 }
 
 
-function FileIcon(props) {
+function FileIcon(props:any) {
   return (
     <svg
       {...props}
@@ -394,7 +394,7 @@ function FileIcon(props) {
 }
 
 
-function SearchIcon(props) {
+function SearchIcon(props:any) {
   return (
     <svg
       {...props}
@@ -415,7 +415,7 @@ function SearchIcon(props) {
 }
 
 
-function CarIcon(props) {
+function CarIcon(props:any) {
   return (
     <svg
       {...props}
@@ -438,7 +438,7 @@ function CarIcon(props) {
 }
 
 
-function DollarSignIcon(props) {
+function DollarSignIcon(props:any) {
   return (
     <svg
       {...props}
@@ -459,7 +459,7 @@ function DollarSignIcon(props) {
 }
 
 
-function ClockIcon(props) {
+function ClockIcon(props:any) {
   return (
     <svg
       {...props}

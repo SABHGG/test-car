@@ -196,7 +196,7 @@ export function Landing() {
 }
 
 
-function Package2Icon(props) {
+function Package2Icon(props:any) {
   return (
     <svg
       {...props}
@@ -218,7 +218,7 @@ function Package2Icon(props) {
 }
 
 
-function DatabaseIcon(props) {
+function DatabaseIcon(props:any) {
   return (
     <svg
       {...props}
@@ -240,7 +240,7 @@ function DatabaseIcon(props) {
 }
 
 
-function BoxIcon(props) {
+function BoxIcon(props:any) {
   return (
     <svg
       {...props}
@@ -262,7 +262,7 @@ function BoxIcon(props) {
 }
 
 
-function UsersIcon(props) {
+function UsersIcon(props:any) {
   return (
     <svg
       {...props}
