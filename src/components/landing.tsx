@@ -109,8 +109,8 @@ export function Landing() {
                 <div className="space-y-2">
                   <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Trusted by Car Wash Owners</h2>
                   <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-                    "The software has made managing my car wash a delight. I can focus on my customers while the system
-                    takes care of the rest."
+                    The software has made managing my car wash a delight. I can focus on my customers while the system
+                    takes care of the rest.
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -196,24 +196,6 @@ export function Landing() {
 }
 
 
-function MountainIcon(props) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <path d="m8 3 4 8 5-5 5 15H2L8 3z" />
-    </svg>
-  )
-}
 function Package2Icon(props) {
   return (
     <svg
